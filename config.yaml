@@ -1,4 +1,4 @@
-baseURL: https://rrvll.netlify.app
+baseURL: "https://rrvll.netlify.app/"
 languageCode: en-us
 title: Román Website
 theme: forty
