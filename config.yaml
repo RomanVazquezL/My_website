@@ -15,8 +15,8 @@ params:
     address:
       - city: London
         country: UK
-        street: London Business School
-        title: Address
+        street: Regent's Park
+        title: NW1 4SA
     buttonClear: Clear
     buttonSend: Send message
     email:
@@ -69,8 +69,8 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: By Román
+    title: My Website
   tiles:
     enable: yes
     showcase:
