@@ -6,11 +6,10 @@ googleAnalytics: ''
 disqusShortname: ''
 params:
   banner:
-    buttonText: Get Started
-    subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Román
+    buttonText: Get to know me
+    subtitle: 
+      A website created to showcase what I have been up to since the 10th March 2000
+    title: Hi, my name is Román Vázquez Lorenzo
   blog: {}
   contact:
     address:
