@@ -9,4 +9,7 @@ keywords: ""
 slug: my_resume
 title: My Resume
 ---
-I will link my resume to this page
+
+Download CV (updated 13/09/21):
+
+[My CV]("\\static\\resume\\CV_RomanVazquez_130921.pdf")

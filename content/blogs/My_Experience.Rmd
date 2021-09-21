@@ -10,4 +10,41 @@ slug: my_experience
 title: My Experience
 ---
 
-This will be the my experience page
+# Deloitte Consulting
+## Strategy Summer Intern  (Jun-Sep 2021)
+
+- Established strategy for creation of an AI Hub in Spain for the European Digital AI Network by contacting key agents, identifying business structure and benchmarking against 50 hubs internationally
+- Attracted Scottish ferry company to dock at a Spanish port by presenting an extensive analysis of potential opportunities in city, generating a potential 30% increase in maritime tourism activity
+- Reduced time spent in daily reporting of health data of arrivals to Spain for the Ministry of Health by 70%, creating ad hoc macros in Excel’s VBA
+- Developed NLP algorithm measuring degree of semantic similarity between users reviews of Spain Travel Health app, identifying 5 key improvements in usability and app reliability
+
+```{r image_2, echo = FALSE, out.width= "50%"}
+
+knitr:: include_graphics("/img/Deloitte.jpg", error = FALSE)
+
+```
+
+# Mace Group
+## Consulting Intern  (Jun-Aug 2020)
+
+- Gathered data of past project cost models to create database of 600+ entries reducing time spent in future cost planning process by >25%
+- Addressed contractor disagreements, adopting conflict resolution techniques, improving communication of 10 delivery teams and subcontractors
+
+> **VOLUNTEERING**
+
+# Play Action Interncational (East African Playgrounds)
+## Volunteer
+
+- Built playgrounds for schools in Uganda. 
+- Most enriching experience of my life!!
+
+```{r image_3, echo = FALSE, out.width= "45%"}
+
+knitr:: include_graphics("/img/Pala.jpg", error = FALSE)
+knitr:: include_graphics("/img/Aplaudir.jpg", error = FALSE)
+
+```
+
+```{r image_1, echo = FALSE, out.width= "40%"}
+knitr:: include_graphics("/img/discover.jpg", error = FALSE)
+```
