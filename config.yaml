@@ -61,12 +61,12 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Blogs
-        url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      # - name: Blogs
+      #   url: blogs
+      # - name: Generic Blog
+      #   url: blogs/ipsum
+      # - name: Elements
+      #   url: elements.html
     menu: Menu
     subtitle: ByRoman
     title: My Website
@@ -93,7 +93,7 @@ params:
         subtitle: This is where I want to go
         title: My objectives
         url: blogs/ipsum
-      - image: Uganda_mirror.jpg
+      - image: uganda_mirror.jpg
         subtitle: Download it and reach out if interested
         title: My Resume
         url: blogs/ipsum
