@@ -7,18 +7,24 @@ description: ""
 draft: false
 
 keywords: ""
-slug: My Projects
+slug: myprojects
 title: My Projects
 ---
 
-# 1. Machine Learning for Additive Manufacturing 
-## Creating a machine learning classification algorithm for metallic powder bed fusion additive manufacturing using *MATLAB*
+## Machine Learning for Additive Manufacturing 
+### Creating a machine learning classification algorithm for metallic powder bed fusion additive manufacturing using *MATLAB*
 
-> Part of my final year thesis for completion of my Bachelor in Mechanical Engineering at the University of Warwic
+> Part of my final year thesis for completion of my Bachelor in Mechanical Engineering at the University of Warwick
 
 ### Abstract
 
 Methodology and analysis of the development of a software and a machine learning (ML) algorithm for image extraction and classification of a Selective Laser Melting (SLM) additive manufacturing (AM) process is presented. The programmes were created by means of the MATLAB R2020b software package and the video of the surface of the powder bed of the SLM printer was captured using the XirisTM XVC-1100 smart camera. For all frames of the video captured, mean b* colour values were obtained and compared, identifying the precise frames required for analysis. An accuracy of 99% was achieved, proving the aptness of the software for Laser-Powder Bed Fusion layer-wise quality monitoring. Thereafter, a Bag of Visual Words (BoVW) ML algorithm was trained using the collected frames, which was subsequently tested, achieving a 92.1% accuracy. Several validation techniques were utilised, confirming software integrity. Finally, the impact of the developed programmes was outlined, focusing on their significance for research and evaluation of the effect of AM process parameters in print quality, and the opportunities for implementation in real-time AM quality monitoring systems.
+
+
+``` {r thesis images, echo = FALSE}
+knitr::include_graphics('./Tech_Report.png')
+
+```
 
 ### The Code
 
@@ -78,7 +84,7 @@ Methodology and analysis of the development of a software and a machine learning
       Pnum = num;
     end
 
-*Manually select coordinates for image cropping*
+Manually select coordinates for image cropping
 
     % h = imshow('Frame 0431.png'); % Show first frame saved
     hp = impixelinfo; % Show location of pointer in frame
@@ -106,96 +112,109 @@ Methodology and analysis of the development of a software and a machine learning
     outputFullFileName = fullfile('D:\S3', outputBaseFileName);
     imwrite(P3, outputFullFileName);
     end
+Published with MATLAB® R2020b
 
-*Published with MATLAB® R2020b*
  
 #### Code for Image Classification 
 
-Establish datasets using ImageDataStore function.
+*Establish datasets using ImageDataStore function.*
 
-File = fullfile('C:\Training and Test Set');
-DB = imageDatastore(File,'IncludeSubfolders', true, 'LabelSource','foldernames');
-Display class names and counts.
-Table = countEachLabel(DB)
-Categories = tbl.Label;
-Partition 336 images for training and 228 for testing.
-Ilocation = fileparts(DB.Files{1});
-imgSet = imageSet(strcat(Ilocation,'\..'),'recursive'); % Recursively scan entire image set folder
-[training_set,test_set] = imgSet.partition(113); % Create training and test set
-test_set = test_set.partition(76);
-Create visual vocabulary.
-tic % Start timer
-% Use bagOfFeatures function to create vocabulary
-% Set vocabulary size, type of feature point selection
-% and amount of features to select from (Final was 7, grid, 80%)
-BoVW = bagOfFeatures(training_set, 'VocabularySize',7,'PointSelection','Grid','StrongestFeatures', 0.8);
-% Create array of presence of visual words on each image
-imgdata = double(encode(BoVW, tr_set));
-toc % Stop timer
-return; % Stop running code
-Visualise/Plot histograms of feature vectors.
-% Plot histogram of random S1 image
-img = read(training_set(1), randi(training_set(1).Count));
-featureVector = encode(BoVW, img); % Encode data from BoVW
-subplot(1,3,1); % Establish 1x3 image
-bS1 = bar(featureVector, 'FaceColor', [0 0.7 0]);
-titS1 = title({'Visual Word Occurrences of','Image in S1 Training Set'});
-xlabS1 = xlabel('Visual Word Index');
-ylabS1 = ylabel('Frequency ()');
+    File = fullfile('C:\Training and Test Set');
+    DB = imageDatastore(File,'IncludeSubfolders', true, 'LabelSource','foldernames');
+    
+*Display class names and counts.*
+    
+    Table = countEachLabel(DB)
+    Categories = tbl.Label;
 
-% Set font and size
-set(gca, 'FontName', 'Times New Roman')
-set([xlabS1,ylabS1], 'FontSize', 13)
-set([titS1], 'FontSize', 15)
+*Partition 336 images for training and 228 for testing.*
 
-% Plot histogram of random S2 image
-img = read(tr_set(2), randi(tr_set(2).Count));
-featureVector = encode(BoVW, img);
-subplot(1,3,2);
-bS2 = bar(featureVector, 'FaceColor', [0 0.5 0]);
-titS2 = title({'Visual Word Occurrences of','Image in S2 Training Set'});
-xlabS2 = xlabel('Visual Word Index');
-ylabS2 = ylabel('Frequency (%)');
+    Ilocation = fileparts(DB.Files{1});
+    imgSet = imageSet(strcat(Ilocation,'\..'),'recursive'); % Recursively scan entire image set folder
+    [training_set,test_set] = imgSet.partition(113); % Create training and test set
+    test_set = test_set.partition(76);
+    
+*Create visual vocabulary.*
+    
+    tic % Start timer
+    % Use bagOfFeatures function to create vocabulary
+    % Set vocabulary size, type of feature point selection
+    % and amount of features to select from (Final was 7, grid, 80%)
+    BoVW = bagOfFeatures(training_set, 'VocabularySize',7,'PointSelection','Grid','StrongestFeatures', 0.8);
+    % Create array of presence of visual words on each image
+    imgdata = double(encode(BoVW, tr_set));
+    toc % Stop timer
+    return; % Stop running code
 
-% Set font and size
-set(gca, 'FontName', 'Times New Roman')
-set([xlabS2,ylabS2], 'FontSize', 13)
-set([titS2], 'FontSize', 15)
+*Visualise/Plot histograms of feature vectors.*
 
-% Plot histogram of random S3 image
-img = read(tr_set(3), randi(tr_set(3).Count));
-featureVector = encode(BoVW, img);
-subplot(1,3,3);
-bS3 = bar(featureVector, 'FaceColor', [0 0.3 0]);
-titS3 = title({'Visual Word Occurrences of','Image in S3 Training Set'});
-xlabS3 = xlabel('Visual Word Index');
-ylabS3 = ylabel('Frequency (%)');
+    % Plot histogram of random S1 image
+    img = read(training_set(1), randi(training_set(1).Count));
+    featureVector = encode(BoVW, img); % Encode data from BoVW
+    subplot(1,3,1); % Establish 1x3 image
+    bS1 = bar(featureVector, 'FaceColor', [0 0.7 0]);
+    titS1 = title({'Visual Word Occurrences of','Image in S1 Training Set'});
+    xlabS1 = xlabel('Visual Word Index');
+    ylabS1 = ylabel('Frequency ()');
 
-% Set font and size
-set(gca, 'FontName', 'Times New Roman')
-set([xlabS3,ylabS3], 'FontSize', 13)
-set([titS3], 'FontSize', 15)
-Create a 339x8 table using the encoded features
-ImageData = array2table(imgdata); % Convert array created earlier to table
-% Link each category with each feature vector
-Type = categorical(repelem({training_set.Description}', [training_set.Count], 1));
-ImageData.Type = Type;
-Use the image data to train a model and assess its performance using Classification learner
-Open Classification Learner and import trained model
-classificationLearner
-Test out accuracy on testing set
-tic % Start timer
-testImData = double(encode(BoVW, test_set));
-testImData = array2table(testImData,'VariableNames',M0780.RequiredVariables); % Implement imported model
-actualImType = categorical(repelem({test_set.Description}', [test_set.Count], 1)); % Obtain actual category
+    % Set font and size
+    set(gca, 'FontName', 'Times New Roman')
+    set([xlabS1,ylabS1], 'FontSize', 13)
+    set([titS1], 'FontSize', 15)
+    
+    % Plot histogram of random S2 image
+    img = read(tr_set(2), randi(tr_set(2).Count));
+    featureVector = encode(BoVW, img);
+    subplot(1,3,2);
+    bS2 = bar(featureVector, 'FaceColor', [0 0.5 0]);
+    titS2 = title({'Visual Word Occurrences of','Image in S2 Training Set'});
+    xlabS2 = xlabel('Visual Word Index');
+    ylabS2 = ylabel('Frequency (%)');
+    
+    % Set font and size
+    set(gca, 'FontName', 'Times New Roman')
+    set([xlabS2,ylabS2], 'FontSize', 13)
+    set([titS2], 'FontSize', 15)
+    
+    % Plot histogram of random S3 image
+    img = read(tr_set(3), randi(tr_set(3).Count));
+    featureVector = encode(BoVW, img);
+    subplot(1,3,3);
+    bS3 = bar(featureVector, 'FaceColor', [0 0.3 0]);
+    titS3 = title({'Visual Word Occurrences of','Image in S3 Training Set'});
+    xlabS3 = xlabel('Visual Word Index');
+    ylabS3 = ylabel('Frequency (%)');
+    
+    % Set font and size
+    set(gca, 'FontName', 'Times New Roman')
+    set([xlabS3,ylabS3], 'FontSize', 13)
+    set([titS3], 'FontSize', 15)
 
-predictedOutcome = M0780.predictFcn(testImData); % Implement imported model M0780 to test
+*Create a 339x8 table using the encoded features*
 
-% Count correct predictions by comparing obtained classification and actual category
-correctPredictions = (predictedOutcome == actualImType);
-validationAccuracy = sum(correctPredictions)/length(predictedOutcome) % Calculate validation accuracy
-toc % Stop timer
-Published with MATLAB® R2020b
+    ImageData = array2table(imgdata); % Convert array created earlier to table
+    % Link each category with each feature vector
+    Type = categorical(repelem({training_set.Description}', [training_set.Count], 1));
+    ImageData.Type = Type;
 
+*Use the image data to train a model and assess its performance using Classification learner*
+*Open Classification Learner and import trained model*
+    
+    classificationLearner
+    
+*Test out accuracy on testing set*
 
-# 
+    tic % Start timer
+    testImData = double(encode(BoVW, test_set));
+    testImData = array2table(testImData,'VariableNames',M0780.RequiredVariables); % Implement imported model
+    actualImType = categorical(repelem({test_set.Description}', [test_set.Count], 1)); % Obtain actual category
+    
+    predictedOutcome = M0780.predictFcn(testImData); % Implement imported model M0780 to test
+
+    % Count correct predictions by comparing obtained classification and actual category
+    correctPredictions = (predictedOutcome == actualImType);
+    validationAccuracy = sum(correctPredictions)/length(predictedOutcome) % Calculate validation accuracy
+    toc % Stop timer
+    
+*Published with MATLAB® R2020b*
+
