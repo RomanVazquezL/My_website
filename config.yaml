@@ -85,7 +85,7 @@ params:
         subtitle: This is how I have applied what I have been taught
         title: My Experience
         url: blogs/magna
-      - image: Tech_Report.png
+      - image: Tech_Report_all.png
         subtitle: Feel free to check them out!
         title: My Projects
         url: blogs/ipsum
