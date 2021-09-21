@@ -21,14 +21,14 @@ From an early age I have benefited from being what I have denominated as a *spon
 ## My hobbies
 Whenever I have time, I practice sports. Here are a few photos that showcase what I usually do in my free time. 
 
-```{r image 1, echo = FALSE, out.width="60%"}
-knitr:: include_graphics("/img/windsurf.png", error = FALSE)
-```
+Having lived next to the see my whole life, I like to practice water sports, especially windsurf and sailing. Being individual sports, they give me time to think, and through them I have been able to learn how to come up with solutions in desperate times from an early age. 
 
-* Having lived next to the see my whole life, I like to practice water sports, especially windsurf and sailing. Being individual sports, they give me time to think, and through them I have been able to learn how to come up with solutions in desperate times from an early age.*
+```{r image 1, echo = FALSE, out.width=20%"}
+knitr:: include_graphics("/img/windsurf.jpg", error = FALSE)
+```
 
 ```{r image 2, echo = FALSE, out.width="60%"}
-knitr:: include_graphics("/img/sailing1.png", error = FALSE)
+knitr:: include_graphics("/img/Sailing2.jpeg", error = FALSE)
 ```
 
-*There has not been a year in which I had not played basketball, having competed at a national level in Spain, in the UK against other universities and now as part of the London Business School team. 
+There has not been a year in which I had not played basketball, having competed at a national level in Spain, in the UK against other universities and now as part of the London Business School team. 
