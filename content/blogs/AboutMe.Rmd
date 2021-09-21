@@ -31,6 +31,8 @@ knitr:: include_graphics("/img/windsurf.jpg", error = FALSE)
 
 knitr:: include_graphics("/img/Sailing2.jpeg", error = FALSE)
 
+knitr:: include_graphics("/img/Sailing1.jpeg", error = FALSE)
+
 ```
 
 
