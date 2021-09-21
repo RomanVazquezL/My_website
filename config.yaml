@@ -69,6 +69,8 @@ params:
         url: blogs/Myexperience
       - name: My Objectives
         url: blogs/Myobjectives
+      - name: My Resume
+        url: blogs/Myresume
     menu: Menu
     subtitle: ByRoman
     title: My Website
