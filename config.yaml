@@ -7,8 +7,7 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get to know me
-    subtitle: 
-      A website created to showcase what I have been up to lately!
+    subtitle: A website created to showcase what I have been up to lately!
       title: Hi, my name is Roman Vazquez Lorenzo
   blog: {}
   contact:
