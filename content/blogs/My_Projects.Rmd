@@ -130,10 +130,15 @@ Published with MATLAB® R2020b
 
 *Partition 336 images for training and 228 for testing.*
 
+ 
+```{r image, echo = FALSE,  out.width="50%"}
     Ilocation = fileparts(DB.Files{1});
     imgSet = imageSet(strcat(Ilocation,'\..'),'recursive'); % Recursively scan entire image set folder
     [training_set,test_set] = imgSet.partition(113); % Create training and test set
     test_set = test_set.partition(76);
+knitr:: include_graphics("/img/Tech_Report7.png", error = FALSE)
+
+```
     
 *Create visual vocabulary.*
     
