@@ -3,20 +3,32 @@ categories:
 - ""
 - ""
 date: "2017-10-31T22:42:51-05:00"
-description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
-  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
-  consequat tincidunt. Vivamus et sagittis tempus.
+
 draft: false
 # image: pic07.jpg
 keywords: ""
 slug: roman_vazquez_lorenzo
 title: About Me
 ---
+## Who am I? 
+I come from La Coruña, a city in the northwest region of Spain, surrounded by water and where you can eat the best spanish *tortilla* and octopus *a la gallega*. There I spent my first 18 years of life, after which I moved to Royal Leamington Spa in the UK to study Mechanical Engineering at the University of Warwick, driven by my passion for both multiculturality and applied problem-solving.  
 
-![](https://www.ebooking.com/es/noticias/wp-content/uploads/2019/01/la-coruna.jpg)
-
+After 3 years of exponential personal growth, I graduated with a first class and with a immense appetite for solving high-impact problems. To suffice my hunger, I am learning about data analytics at London Business School, and pursuing a career in consulting in London. 
 
 ## Sponge
-
 From an early age I have benefited from being what I have denominated as a *sponge*. This means that I am able to soak in all information around me quickly and make use of it. This also implies that my personality, manners and desires change depending on the people that I surround myself with, which can be both beneficial and a disadvantage. Luckily, I have been lucky to have a **great family and friends throughout my life**, who have guided me through the right path.
+
+## My hobbies
+Whenever I have time, I practice sports. Here are a few photos that showcase what I usually do in my free time. 
+
+```{r image 1, echo = FALSE, out.width="60%"}
+knitr:: include_graphics("/img/windsurf.png", error = FALSE)
+```
+
+* Having lived next to the see my whole life, I like to practice water sports, especially windsurf and sailing. Being individual sports, they give me time to think, and through them I have been able to learn how to come up with solutions in desperate times from an early age.*
+
+```{r image 2, echo = FALSE, out.width="60%"}
+knitr:: include_graphics("/img/sailing1.png", error = FALSE)
+```
+
+*There has not been a year in which I had not played basketball, having competed at a national level in Spain, in the UK against other universities and now as part of the London Business School team. 

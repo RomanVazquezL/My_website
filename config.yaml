@@ -91,8 +91,8 @@ params:
         subtitle: This is how I have applied what I have been taught
         title: My Experience
         url: blogs/my_experience
-      - image: Tech_Report_all.png
-        subtitle: Feel free to check them out!
+      - image: AM_interra.jpg
+        subtitle: My final year engineering thesis
         title: Machine Learning for Additive Manufacturing
         url: blogs/my_projects
       - image: Be_Disciplined.jpg
