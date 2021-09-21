@@ -8,7 +8,7 @@ params:
   banner:
     buttonText: Get to know me
     subtitle: A website created to showcase what I have been up to lately!
-      title: Hi, my name is Roman Vazquez Lorenzo
+    title: Hi, my name is Roman Vazquez Lorenzo
   blog: {}
   contact:
     address:
@@ -74,28 +74,28 @@ params:
     enable: yes
     showcase:
       - image: 2018-08-28 05.26.50 1.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: AboutMe
+        subtitle: This is where I come from
+        title: About me
         url: blogs/roman_vazquez_lorenzo
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
+        subtitle: This is where I have been taught what I know
         title: My Education
         url: blogs/tempus
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: My Education
+        subtitle: This is how I have applied what I have been taught
+        title: My Experience
         url: blogs/magna
       - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: My projects
+        subtitle: Feel free to check them out!
+        title: My Projects
         url: blogs/ipsum
       - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: 
+        subtitle: This is where I want to go
+        title: My objectives
         url: blogs/ipsum
       - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: My Resumé
+        subtitle: Download it and reach out if interested
+        title: My Resume
         url: blogs/ipsum
   two:
     buttonText: Get Started
