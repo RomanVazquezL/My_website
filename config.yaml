@@ -77,11 +77,11 @@ params:
         subtitle: This is where I come from
         title: About me
         url: blogs/roman_vazquez_lorenzo
-      - image: Graduacion_SMM.jpg
+      - image: Interra.jpg
         subtitle: This is where I have been taught what I know
         title: My Education
         url: blogs/tempus
-      - image: Uganda_mirror.jpg
+      - image: Rope_Uganda.jpg
         subtitle: This is how I have applied what I have been taught
         title: My Experience
         url: blogs/magna
@@ -93,13 +93,14 @@ params:
         subtitle: This is where I want to go
         title: My objectives
         url: blogs/ipsum
-      - image: pic06.jpg
+      - image: Uganda_mirror.jpg
         subtitle: Download it and reach out if interested
         title: My Resume
         url: blogs/ipsum
   two:
-    buttonText: Get Started
+    buttonText: rrvll
     enable: yes
-    subtitle: "All the photos on my website have been taken by me. Check these and more in my VSCO account! "
+    subtitle: "All the photos on my website have been taken by me. Click below and check these and more in my VSCO account! "
     title: My photos
+    image: uganda_bano.jpg
     url: https://vsco.co/rrvll/gallery
