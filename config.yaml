@@ -67,7 +67,7 @@ params:
         url: blogs/my_education
       - name: My Experience
         url: blogs/my_experience
-      - name: My Objectives
+      - name: Ask a Manager Dataset
         url: blogs/my_objectives
       - name: ML for AM
         url: blogs/my_projects
@@ -96,11 +96,11 @@ params:
         title: Machine Learning for Additive Manufacturing
         url: blogs/my_projects
       - image: Be_Disciplined.jpg
-        subtitle: This is where I want to go
-        title: My objectives
+        subtitle: Pay gap by gender analysis
+        title: Ask a manager Dataset
         url: blogs/my_objectives
       - image: uganda_mirror.jpg
-        subtitle: Download it and reach out if interested
+        subtitle: Updated on the 13/09/21
         title: My Resume
         url: blogs/my_resume
   two:

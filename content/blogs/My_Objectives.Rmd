@@ -7,7 +7,17 @@ draft: false
 # image: pic07.jpg
 keywords: ""
 slug: my_objectives
-title: My Objectives
+title: Analysing Pay Gap by Gender
 ---
 
-I will explain what my objectives are
+From the public data *Ask a Manager*, an analysis of the differences in salary between men and woman was done. The whole project was done using R. 
+
+
+```{r image 2, echo = FALSE, out.width="100%"}
+knitr:: include_graphics("/img/Slide1.png", error = FALSE)
+knitr:: include_graphics("/img/Slide2.png", error = FALSE)
+knitr:: include_graphics("/img/Slide3.png", error = FALSE)
+knitr:: include_graphics("/img/Slide4.png", error = FALSE)
+knitr:: include_graphics("/img/Slide5.png", error = FALSE)
+
+```
