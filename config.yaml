@@ -93,7 +93,7 @@ params:
         url: blogs/my_experience
       - image: Tech_Report_all.png
         subtitle: Feel free to check them out!
-        title: My Projects
+        title: Machine Learning for Additive Manufacturing
         url: blogs/my_projects
       - image: Be_Disciplined.jpg
         subtitle: This is where I want to go
