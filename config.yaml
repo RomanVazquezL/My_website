@@ -64,13 +64,15 @@ params:
       - name: About Me
         url: blogs/roman_vazquez_lorenzo
       - name: My Education
-        url: blogs/Myeducation
+        url: blogs/my_education
       - name: My Experience
-        url: blogs/Myexperience
+        url: blogs/my_experience
       - name: My Objectives
-        url: blogs/Myobjectives
+        url: blogs/my_objectives
+      - name: My Projects
+        url: blogs/my_projects
       - name: My Resume
-        url: blogs/Myresume
+        url: blogs/my_resume
     menu: Menu
     subtitle: ByRoman
     title: My Website
@@ -84,23 +86,23 @@ params:
       - image: Interra.jpg
         subtitle: This is where I have been taught what I know
         title: My Education
-        url: blogs/Myeducation
+        url: blogs/my_education
       - image: Rope_Uganda.jpg
         subtitle: This is how I have applied what I have been taught
         title: My Experience
-        url: blogs/Myexperience
+        url: blogs/my_experience
       - image: Tech_Report_all.png
         subtitle: Feel free to check them out!
         title: My Projects
-        url: blogs/Myprojects
+        url: blogs/my_projects
       - image: Be_Disciplined.jpg
         subtitle: This is where I want to go
         title: My objectives
-        url: blogs/Myobjectives
+        url: blogs/my_objectives
       - image: uganda_mirror.jpg
         subtitle: Download it and reach out if interested
         title: My Resume
-        url: blogs/Myresume
+        url: blogs/my_resume
   two:
     buttonText: rrvll
     enable: yes
