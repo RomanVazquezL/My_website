@@ -92,7 +92,7 @@ params:
       - image: Tech_Report_all.png
         subtitle: Feel free to check them out!
         title: My Projects
-        url: blogs/myprojects
+        url: blogs/Myprojects
       - image: Be_Disciplined.jpg
         subtitle: This is where I want to go
         title: My objectives
