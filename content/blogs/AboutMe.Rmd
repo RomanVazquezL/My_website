@@ -24,7 +24,7 @@ From an early age I have benefited from being what I have denominated as a *spon
 Whenever I have time, I practice sports. Here are a few photos that showcase what I usually do in my free time. Having lived next to the see my whole life, I like to practice water sports, especially windsurf and sailing. Being individual sports, they give me time to think, and through them I have been able to learn how to come up with solutions in desperate times from an early age. 
 
 
-```{r image_1, echo = FALSE, out.width= "45%"}
+```{r image_1, echo = FALSE, out.width= "30%"}
 
 knitr:: include_graphics("/img/windsurf.jpg", error = FALSE)
 
