@@ -63,16 +63,12 @@ params:
         url: '#'
       - name: About Me
         url: blogs/roman_vazquez_lorenzo
-      - name: About Me
-        url: blogs/roman_vazquez_lorenzo
+      - name: My Education
+        url: blogs/Myeducation
       - name: My Experience
         url: blogs/Myexperience
-      # - name: My Experience
-      #   url: blogs/Myexperience
-      # - name: Generic Blog
-      #   url: blogs/ipsum
-      # - name: Elements
-      #   url: elements.html
+      - name: My Objectives
+        url: blogs/Myobjectives
     menu: Menu
     subtitle: ByRoman
     title: My Website
@@ -86,11 +82,11 @@ params:
       - image: Interra.jpg
         subtitle: This is where I have been taught what I know
         title: My Education
-        url: blogs/tempus
+        url: blogs/Myeducation
       - image: Rope_Uganda.jpg
         subtitle: This is how I have applied what I have been taught
         title: My Experience
-        url: blogs/magna
+        url: blogs/Myexperience
       - image: Tech_Report_all.png
         subtitle: Feel free to check them out!
         title: My Projects
@@ -98,7 +94,7 @@ params:
       - image: Be_Disciplined.jpg
         subtitle: This is where I want to go
         title: My objectives
-        url: blogs/ipsum
+        url: blogs/Myobjectives
       - image: uganda_mirror.jpg
         subtitle: Download it and reach out if interested
         title: My Resume
