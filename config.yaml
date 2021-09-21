@@ -49,6 +49,9 @@ params:
       - icon: fa-linkedin
         label: LinkedIn
         url: https://www.linkedin.com/in/roman-vazquez-lorenzo
+      - icon: fa-vsco
+        label: VSCO
+        url: https://vsco.co/rrvll/gallery
   image: ''
   name: Your name
   navigation:
