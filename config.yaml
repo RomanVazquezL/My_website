@@ -73,19 +73,19 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: 2018-08-28 05.26.50 1.jpg
+      - image: Sada_boats.jpg
         subtitle: This is where I come from
         title: About me
         url: blogs/roman_vazquez_lorenzo
-      - image: Sada_boats.jpg
+      - image: Graduacion_SMM.jpg
         subtitle: This is where I have been taught what I know
         title: My Education
         url: blogs/tempus
-      - image: pic03.jpg
+      - image: Be_Disciplined.jpg
         subtitle: This is how I have applied what I have been taught
         title: My Experience
         url: blogs/magna
-      - image: pic04.jpg
+      - image: Tech_Report.png
         subtitle: Feel free to check them out!
         title: My Projects
         url: blogs/ipsum
