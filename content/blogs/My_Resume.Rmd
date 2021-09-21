@@ -10,6 +10,13 @@ slug: my_resume
 title: My Resume
 ---
 
-Download CV (updated 13/09/21):
+```{r image 1, echo = FALSE, out.width="100%"}
 
-[My CV]("\\static\\resume\\CV_RomanVazquez_130921.pdf")
+knitr:: include_graphics("/img/CV_RomanVazquez_130921.jpg", error = FALSE)
+
+```
+
+
+
+
+
