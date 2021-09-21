@@ -22,7 +22,7 @@ Methodology and analysis of the development of a software and a machine learning
 
 ```{r image, echo = FALSE,  out.width="50%"}
 
-knitr:: include_graphics("C:\\Users\\rvlor\\OneDrive - London Business School\\1. LBS\\2. MAM\\01. Term 1\\AM01. Applied Statistics with R\\My portfolio GIT\\My_website\\static\\img\\blogs\\Tech_Report2.png", error = FALSE)
+knitr:: include_graphics(".\\static\\img\\blogs\\Tech_Report2.png", error = FALSE)
 
 ```
 
