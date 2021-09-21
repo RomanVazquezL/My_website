@@ -16,6 +16,10 @@ title: My Projects
 
 > Part of my final year thesis for completion of my Bachelor in Mechanical Engineering at the University of Warwic
 
+
+![]("C:\\Users\\rvlor\\OneDrive - London Business School\\1. LBS\\2. MAM\\01. Term 1\\AM01. Applied Statistics with R\\My portfolio GIT\\My_website\\static\\img\\blogs\\Tech_Report2.png")
+
+
 ``` {r thesis images, echo = FALSE}
 
 knitr::include_graphics(C:\Users\rvlor\OneDrive - London Business School\1. LBS\2. MAM\01. Term 1\AM01. Applied Statistics with R\My portfolio GIT\My_website\content\blogs\Images\Tech_Report2.png)

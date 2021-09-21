@@ -18,7 +18,6 @@ I was born in **La Coruña, Spain** on the 10th of March 2000, a city surrounded
 
 ![](https://www.ebooking.com/es/noticias/wp-content/uploads/2019/01/la-coruna.jpg)
 
-![](C:\\Users\\rvlor\\OneDrive - London Business School\\1. LBS\\2. MAM\\01. Term 1\\AM01. Applied Statistics with R\\My portfolio GIT\\My_website\\static\\img\\blogs\\Tech_Report2.png)
 
 ## Sponge
 

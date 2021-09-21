@@ -61,8 +61,14 @@ params:
     links:
       - name: Home
         url: '#'
-      # - name: Blogs
-      #   url: blogs
+      - name: About Me
+        url: blogs/roman_vazquez_lorenzo
+      - name: About Me
+        url: blogs/roman_vazquez_lorenzo
+      - name: My Experience
+        url: blogs/Myexperience
+      # - name: My Experience
+      #   url: blogs/Myexperience
       # - name: Generic Blog
       #   url: blogs/ipsum
       # - name: Elements
