@@ -14,8 +14,6 @@ slug: roman_vazquez_lorenzo
 title: About Me
 ---
 
-I was born in **La Coruña, Spain** on the 10th of March 2000, a city surrounded by water.
-
 ![](https://www.ebooking.com/es/noticias/wp-content/uploads/2019/01/la-coruna.jpg)
 
 

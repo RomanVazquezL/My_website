@@ -100,7 +100,7 @@ params:
       - image: uganda_mirror.jpg
         subtitle: Download it and reach out if interested
         title: My Resume
-        url: blogs/ipsum
+        url: blogs/Myresume
   two:
     buttonText: rrvll
     enable: yes
