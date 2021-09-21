@@ -9,4 +9,41 @@ keywords: ""
 slug: my_education
 title: My Education
 ---
-This will be my education page
+```{r image_1, echo = FALSE, out.width= "30%"}
+
+knitr:: include_graphics("/img/LBS_Logo.jpg", error = FALSE)
+
+
+```
+
+# London Business School
+## Master in Analytics and Management | 2021-2022
+- Applied Statistics
+- Data Science for Business
+- Data Management
+- Using Data-Science Responsibly
+
+```{r image_2, echo = FALSE, out.width= "30%"}
+
+knitr:: include_graphics("/img/warwick.png", error = FALSE)
+
+```
+
+# University of Warwick 
+## BEng in Mechanical Engineering | 2018-2021
+Graduated with a First Class Honours Degree. 
+
+- Warwick Hyperloop: Dynamics Team Leader
+- 180 Degrees Consulting: Associate Consultant
+- Warwick Basketball Club
+- Warwick Engineering Society
+
+```{r image_3, echo = FALSE, out.width= "30%"}
+
+knitr:: include_graphics("/img/LogoSMM.jpg", error = FALSE)
+
+```
+
+# Santa Maria del Mar, La Coruña
+## Spanish Baccalaureate
+
