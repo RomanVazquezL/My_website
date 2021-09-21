@@ -81,7 +81,7 @@ params:
         subtitle: This is where I have been taught what I know
         title: My Education
         url: blogs/tempus
-      - image: Be_Disciplined.jpg
+      - image: Uganda_mirror.jpg
         subtitle: This is how I have applied what I have been taught
         title: My Experience
         url: blogs/magna
@@ -89,7 +89,7 @@ params:
         subtitle: Feel free to check them out!
         title: My Projects
         url: blogs/ipsum
-      - image: pic05.jpg
+      - image: Be_Disciplined.jpg
         subtitle: This is where I want to go
         title: My objectives
         url: blogs/ipsum
@@ -100,6 +100,6 @@ params:
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Experience to learn."
-    title: Massa libero
-    url: blogs
+    subtitle: "All the photos on my website have been taken by me. Check these and more in my VSCO account! "
+    title: My photos
+    url: https://vsco.co/rrvll/gallery
