@@ -20,14 +20,6 @@ title: My Projects
 
 Methodology and analysis of the development of a software and a machine learning (ML) algorithm for image extraction and classification of a Selective Laser Melting (SLM) additive manufacturing (AM) process is presented. The programmes were created by means of the MATLAB R2020b software package and the video of the surface of the powder bed of the SLM printer was captured using the XirisTM XVC-1100 smart camera. For all frames of the video captured, mean b* colour values were obtained and compared, identifying the precise frames required for analysis. An accuracy of 99% was achieved, proving the aptness of the software for Laser-Powder Bed Fusion layer-wise quality monitoring. Thereafter, a Bag of Visual Words (BoVW) ML algorithm was trained using the collected frames, which was subsequently tested, achieving a 92.1% accuracy. Several validation techniques were utilised, confirming software integrity. Finally, the impact of the developed programmes was outlined, focusing on their significance for research and evaluation of the effect of AM process parameters in print quality, and the opportunities for implementation in real-time AM quality monitoring systems.
 
-![](img/blogs/Tech_Report2.png)
-
-``` {r thesis images, echo = FALSE}
-
-knitr::include_graphics("img/blogs/Tech_Report2.png")
-
-```
-
 ### The Code
 
 #### Code for image database collection 
